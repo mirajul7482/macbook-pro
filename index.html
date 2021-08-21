@@ -5,8 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mac-book-pro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    
+    <section class="mt-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-6">
+                    <img class="img-fluid" src="images/mac.png" alt="">
+                </div>
+                <div class="col-6">
+                    <h1>Customize your lue 24-inch iMac with Apple M1 chip.</h1>
+                    <p>Apple M1 chip with-8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPu , and 16-core Neural engine 8Gb unified memory 256GB SSD storage Two THunderbolt / USb 4 ports Magic Mouse Magic keyboard Us English</p>
+                    <div class="container">
+                        <div class="row">
+                            <h4>memory</h4>
+                            <div class="col-6 ">
+                                <button id="memory-8gb">8Gb unified memory</button>
+                            </div>
+                            <div class="col-6">
+                                <button id="memory-16gb">16Gb unified memory</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <h4>storage</h4>
+                            <div class="col-md-4 col-sm-6 ">
+                                <button id="ssd-256gb">256Gb SSD storage</button>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <button id="ssd-512gb">512Gb SSD storage</button>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <button id="ssd-1tb">1TB SSD storage</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="container">
+                        <div class="row">
+                            <h4>Choose your delivery option</h4>
+                            <div class="col-6">
+                                <button id="delivery-free">Friday, Aug 25 FREE Prime Delivery</button>
+                            </div>
+                            <div class="col-6">
+                                <button id="delivery-first">Saturday, Aug 21 Delivery Charge $20</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-item mt-5">
+                        <div class="row">
+      
+                           <div class="col-md-8">
+                              <h5>Best Price </h5>
+                              <h5>Extra Memory COst</h5>
+                              <h5>Extra Storage Cost</h5>
+                              <h5>Delivery Charge</h5>
+                              <h5>Total Price</h5>
+                           </div>
+      
+                           <div class="col-md-4 status">
+                              <h5>$<span id="best-price">1299</span></h5>
+                              <h5>$<span id="memory-cost">0</span></h5>
+                              <h5>$<span id="storage-cost">0</span></h5>
+                              <h5>$<span id="delivery-cost">0</span></h5>
+                              <h5>$<span id="total-price">1299</span></h5>
+                           </div>
+                        </div>
+                     </div>
+                     <div>
+                         <p>Add Promo code</p>
+                         <input type="text">
+                         <button>Apply</button>
+                     </div>
+                     
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <h2 class="text-center">Total:$ <span id="total2-price">1299</span></h2>
+    </section>
+    <script src="main.js"></script>
 </body>
 </html>
